@@ -11,8 +11,11 @@ module.exports = (sequelize, DataTypes) => {
         primaryKey: true,
         type: DataTypes.INTEGER,
       },
+      symbol: DataTypes.STRING,
       name: DataTypes.STRING,
       price: DataTypes.FLOAT,
+      percent: DataTypes.FLOAT,
+      change: DataTypes.FLOAT,
       image: DataTypes.STRING,
       createdAt: {
         type: DataTypes.DATE,

@@ -9,10 +9,19 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER,
       },
+      symbol: {
+        type: Sequelize.STRING,
+      },
       name: {
         type: Sequelize.STRING,
       },
       price: {
+        type: Sequelize.FLOAT,
+      },
+      percent: {
+        type: Sequelize.FLOAT,
+      },
+      change: {
         type: Sequelize.FLOAT,
       },
       image: {
