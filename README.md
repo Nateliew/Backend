@@ -1,2 +1,0 @@
-# Pints
- Tetsing
